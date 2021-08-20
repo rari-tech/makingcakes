@@ -1,0 +1,372 @@
+/* タブレット向け */
+
+@media screen and (max-width: 1024px) {
+  .first-wrapper {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+}
+
+
+
+/* スマホ向け */
+
+@media screen and (max-width: 750px) {
+  .first-wrapper {
+    background-image: url("images/web-top6.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  .logo-group {
+    margin-top: 0px;
+  }
+  .logo-group h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d2d3a;
+    padding-top: 5px;
+  }
+  .login-logo {
+  	margin-top: 200px;
+    display: flex;
+  }
+  .logorin {
+  	width: 100%;
+  	max-width: 200px;
+  	height: 100%;
+  	max-height: 220px;
+  }
+  .googlePlay {
+    width: 100%;
+    max-width: 150px;
+    padding-right: 20px;
+
+  }
+  .appStore {
+    width: 100%;
+    max-width: 150px;
+
+  }
+  .secound-wrapper {
+    height: auto;
+    background-image: url("images/cake3.png");
+    background-size: cover;
+    padding-bottom: 50px;
+    color: #2d2d3a;
+    text-align: center;
+  }
+  .heading h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .mobile-contents {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .mobile-point1 img {
+    width: 100%;
+    max-width: 310px;
+    border-radius: 50%;
+    margin-left: 0;
+  }
+  .mobile-point2 p {
+    max-width: 400px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: initial;
+    padding-top: 20px;
+  }
+  .third-wrapper {
+    background-color: #008bbb;
+    color: white;
+    padding: 60px 30px 50px 30px;
+    text-align: center;
+  }
+  .third-wrapper h1 {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .fourth-wrapper {
+    background-image: url("images/115322.png");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    padding-bottom: 40px;
+  }
+  .heading-2 {
+    color: #483530;
+  }
+  .sponge-contents {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .sponge-point1 img {
+    width: 100%;
+    max-width: 750px;
+    margin-left: 0;
+    display: none;
+  }
+  .sponge-mobile {
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .sponge-mobile img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px gray;
+  }
+  .sponge-point2 {
+    max-width: 450px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+  .sponge-point2 h1 {
+    padding-top: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #483530;
+    text-align: center;
+  }
+  .margin-p {
+    margin-top: 30px;
+  }
+  .sponge-point2 p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .fifth-wrapper {
+    background-image: url("images/115319.png");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    padding-bottom: 40px;
+  }
+  .heading-3 {
+    color: #483530;
+  }
+  .choco-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .choco-point1 img {
+    width: 100%;
+    max-width: 450px;
+    margin-left: 30px;
+    display: none;
+  }
+  .chocho-mobile {
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .chocho-mobile img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px gray;
+  }
+  .choco-point2 {
+    max-width: 450px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .choco-point2 h1 {
+    padding-top: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #483530;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .choco-point2 p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .sixth-wrapper {
+    background-image: url("images/115320.png");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    padding-bottom: 40px;
+    background-position: center;
+  }
+  .heading-4 {
+    color: #483530;
+  }
+  .cream-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cream-point1 img {
+    width: 100%;
+    max-width: 750px;
+    margin-left: 30px;
+    display: none;
+  }
+  .cream-mobile {
+    display: block;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .cream-mobile img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px gray;
+  }
+  .cream-point2 {
+    max-width: 450px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .cream-point2 h1 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #483530;
+    padding-bottom: 30px;
+  }
+  .cream-point2 p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .seventh-wrapper {
+  	background-image: url("images/210658.png");
+  	background-size: cover;
+  	color: #434344;
+  	padding-bottom: 50px;
+  }
+  .fa-truck {
+  	padding-left: 6px;
+  }
+  .heading-5 h1 {
+  	padding-top: 60px;
+  }
+  .heading-5 p {
+  	font-size: 23px;
+  	font-weight: bold;
+  	color: #ee5c60;
+  	padding-bottom: 50px;
+  	text-align: center;
+  }
+  .delivery-icons {
+  	display: block;
+  	text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .delivery-icon {
+  	margin-right: 0;
+  }
+  .icon1 {
+  	padding-left: 0;
+    margin-top: -60px;
+  }
+  .icon2 {
+  	margin-right: 0;
+  }
+  .delivery-icon img {
+  	max-width: 200px;
+  	width: 100%;
+    margin-top: 50px;
+  }
+  .delivery-icon p {
+    text-align: center;
+  	max-width: initial;
+  	width: 100%;
+  	font-size: 20px;
+  	padding-top: 20px;
+  	font-weight: bold;
+  }
+  .eighth-wrapper {
+  	text-align: center;
+  	padding-top: 60px;
+  	padding-bottom: 40px;
+  	background-color: #008bbb;
+  	color: white;
+  }
+  .install {
+  	font-size: 28px;
+  	font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .loginLogo {
+  	margin-top: 30px;
+  }
+  footer {
+  	text-align: center;
+  	padding-top: 100px;
+  	padding-bottom: 30px;
+  	background-color: #eeedeb;
+    font-size: 14px;
+  }
+
+}
+
+/* その他 */
+
+@media screen and (max-width: 350px) {
+  .login-logo {
+  	margin-top: 200px;
+    display: block;
+  }
+  .googlePlay {
+    width: 100%;
+    max-width: 150px;
+    padding-right: 0px;
+
+  }
+  .appStore {
+    width: 100%;
+    max-width: 150px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .third-wrapper h1 {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+}
